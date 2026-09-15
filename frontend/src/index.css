@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: hsl(142.1 76.2% 36.3%);
+  --color-primary-foreground: hsl(355.7 100% 97.3%);
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}

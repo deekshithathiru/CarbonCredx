@@ -1,0 +1,65 @@
+{
+    "electricity": {
+        "category": "electricity",
+        "unit": "kWh",
+        "factor": 0.5,
+        "scope": 2,
+        "source": "Demo Dataset",
+        "source_year": 2026,
+        "notes": "Demo emission factors - not official"
+    },
+    "diesel": {
+        "category": "diesel",
+        "unit": "litres",
+        "factor": 2.68,
+        "scope": 1,
+        "source": "Demo Dataset",
+        "source_year": 2026,
+        "notes": "Demo emission factors - not official"
+    },
+    "petrol": {
+        "category": "petrol",
+        "unit": "litres",
+        "factor": 2.31,
+        "scope": 1,
+        "source": "Demo Dataset",
+        "source_year": 2026,
+        "notes": "Demo emission factors - not official"
+    },
+    "natural_gas": {
+        "category": "natural_gas",
+        "unit": "cubic_metres",
+        "factor": 2.0,
+        "scope": 1,
+        "source": "Demo Dataset",
+        "source_year": 2026,
+        "notes": "Demo emission factors - not official"
+    },
+    "employee_commute": {
+        "category": "employee_commute",
+        "unit": "kilometres",
+        "factor": 0.15,
+        "scope": 3,
+        "source": "Demo Dataset",
+        "source_year": 2026,
+        "notes": "Demo emission factors - not official"
+    },
+    "business_travel": {
+        "category": "business_travel",
+        "unit": "kilometres",
+        "factor": 0.18,
+        "scope": 3,
+        "source": "Demo Dataset",
+        "source_year": 2026,
+        "notes": "Demo emission factors - not official"
+    },
+    "waste": {
+        "category": "waste",
+        "unit": "kilograms",
+        "factor": 0.5,
+        "scope": 3,
+        "source": "Demo Dataset",
+        "source_year": 2026,
+        "notes": "Demo emission factors - not official"
+    }
+}
